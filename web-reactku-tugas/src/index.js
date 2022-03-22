@@ -4,7 +4,7 @@ import './index.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import BlogPost from './container/BlogPost/BlogPost';
+import Mahasiswa from './container/Mahasiswa/Mahasiswa';
 
 // const Hello = () =>{
 //   return <p>Hello World</p>
@@ -17,7 +17,7 @@ import BlogPost from './container/BlogPost/BlogPost';
 //   document.getElementById('root')
 // );
 
-ReactDOM.render(<BlogPost/>, document.getElementById('content'));
+ReactDOM.render(<Mahasiswa/>, document.getElementById('content'));
 
 // ReactDOM.render(
 //   <p>Hello World</p>,
